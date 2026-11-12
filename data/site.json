@@ -1,0 +1,542 @@
+{
+  "Interior": {
+    "fonts": {
+      "stylesheet": "https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Manrope:wght@300;400;500;600;700&display=swap",
+      "variables": {
+        "--font-display": "'Bodoni Moda', serif",
+        "--font-body": "'Manrope', sans-serif"
+      }
+    },
+    "templateComponents": {
+      "template-1": {
+        "shared": {
+          "Header": "InteriorSiteChrome1",
+          "Footer": "InteriorSiteChrome1"
+        },
+        "pages": {
+          "home": {
+            "components": [
+              {
+                "key": "Hero",
+                "component": "InteriorHomeHero1"
+              },
+              {
+                "key": "Spaces",
+                "component": "InteriorSpaces1"
+              },
+              {
+                "key": "About",
+                "component": "InteriorAbout1"
+              },
+              {
+                "key": "Projects",
+                "component": "InteriorProjects1"
+              },
+              {
+                "key": "Services",
+                "component": "InteriorServices1"
+              },
+              {
+                "key": "Gallery",
+                "component": "InteriorGallery1"
+              },
+              {
+                "key": "Process",
+                "component": "InteriorProcess1"
+              },
+              {
+                "key": "Testimonials",
+                "component": "InteriorTestimonials1"
+              },
+              {
+                "key": "Contact",
+                "component": "InteriorContact1"
+              }
+            ]
+          }
+        }
+      }
+    },
+    "sections": {
+      "Hero": {
+        "variants": {
+          "InteriorAboutHero1": {
+            "title": "About Aura",
+            "image": "/images/intro-studio.webp"
+          },
+          "InteriorServicesHero1": {
+            "title": "Our Services",
+            "image": "/images/service-homes.webp"
+          },
+          "InteriorProjectsHero1": {
+            "title": "Selected Work",
+            "image": "/images/space-living.webp"
+          },
+          "InteriorGalleryHero1": {
+            "title": "Portfolio Gallery",
+            "image": "/images/project-villa.webp"
+          },
+          "InteriorProcessHero1": {
+            "title": "Design Process",
+            "image": "/images/space-bedroom.webp"
+          },
+          "InteriorContactHero1": {
+            "title": "Contact Us",
+            "image": "/images/contact-bg.webp"
+          }
+        }
+      },
+      "HomeHero": {
+        "variants": {
+          "InteriorHomeHero1": {
+            "image": "/images/hero-slide-1.webp",
+            "images": [
+              "/images/hero-slide-1.webp",
+              "/images/hero-slide-2.webp",
+              "/images/hero-slide-3.webp"
+            ],
+            "badge": "LUXURY ARCHITECTURAL INTERIORS",
+            "titleStart": "Aura",
+            "titleHighlight": "Interior",
+            "titleEnd": "Studio",
+            "description": "Every space has an aura. Homes, offices and boutique spaces designed in light, stone and slow craft.",
+            "primaryButton": "Explore Work",
+            "primaryLink": "#work",
+            "secondaryButton": "Start a Project",
+            "secondaryLink": "#contact"
+          }
+        }
+      },
+      "Spaces": {
+        "variants": {
+          "InteriorSpaces1": {
+            "badge": "SPACES WE DESIGN",
+            "label": "Spaces we design",
+            "line": "Rooms for every day.",
+            "titleStart": "Rooms for",
+            "titleHighlight": "Every Day.",
+            "description": "Living rooms that gather people. Bedrooms that slow you down. Kitchens built for long dinners. Workspaces that stay calm.",
+            "text": "Living rooms that gather people. Bedrooms that slow you down. Kitchens built for long dinners. Workspaces that stay calm.",
+            "buttonText": "View gallery →",
+            "buttonLink": "#gallery",
+            "subtitle": "Residential · Commercial · Hospitality",
+            "items": [
+              {
+                "id": "01",
+                "title": "Living",
+                "image": "/images/project-apartment.webp"
+              },
+              {
+                "id": "02",
+                "title": "Bedroom",
+                "image": "/images/project-villa.webp"
+              },
+              {
+                "id": "03",
+                "title": "Kitchen",
+                "image": "/images/project-penthouse.webp"
+              },
+              {
+                "id": "04",
+                "title": "Workspace",
+                "image": "/images/service-offices.webp"
+              }
+            ]
+          }
+        }
+      },
+      "About": {
+        "variants": {
+          "InteriorAbout1": {
+            "badge": "ABOUT AURA",
+            "label": "About Aura",
+            "line": "Every space has an aura.",
+            "titleStart": "Every Space Has",
+            "titleHighlight": "An Aura.",
+            "description": "Aura is a studio of architects, designers and makers based in New York. We started in 2017 with one belief: a home should feel like the person who lives in it. We take on only a few projects each year, so every room gets our full attention, from the first sketch to the last cushion.",
+            "paragraphs": [
+              "Aura is a studio of architects, designers and makers based in New York. We started in 2017 with one belief: a home should feel like the person who lives in it.",
+              "We take on only a few projects each year, so every room gets our full attention, from the first sketch to the last cushion."
+            ],
+            "images": [
+              "/images/intro-architect.webp",
+              "/images/intro-studio.webp"
+            ],
+            "founder": "Ira Mehra",
+            "role": "Founder & Principal Designer",
+            "caption": "Est. 2017 · Studio of 12",
+            "quote": "Good design is quiet. You feel it before you notice it.",
+            "stats": [
+              {
+                "value": 120,
+                "suffix": "+",
+                "label": "Spaces"
+              },
+              {
+                "value": 9,
+                "suffix": "",
+                "label": "Years"
+              },
+              {
+                "value": 14,
+                "suffix": "",
+                "label": "Awards"
+              }
+            ],
+            "features": [
+              {
+                "title": "Design",
+                "text": "Layouts that fit your life."
+              },
+              {
+                "title": "Materials",
+                "text": "Honest stone, wood, textile."
+              },
+              {
+                "title": "Build",
+                "text": "Our own team, clean sites."
+              },
+              {
+                "title": "Care",
+                "text": "Support after handover."
+              }
+            ]
+          }
+        }
+      },
+      "Projects": {
+        "variants": {
+          "InteriorProjects1": {
+            "badge": "SELECTED WORK",
+            "titleStart": "Featured",
+            "titleHighlight": "Projects",
+            "items": [
+              {
+                "id": "01",
+                "title": "Aarav Villa",
+                "place": "Gurugram",
+                "year": 2025,
+                "image": "/images/space-living.webp"
+              },
+              {
+                "id": "02",
+                "title": "Kaveri Loft",
+                "place": "Mumbai",
+                "year": 2025,
+                "image": "/images/space-bedroom.webp"
+              },
+              {
+                "id": "03",
+                "title": "Mitti Café",
+                "place": "Jaipur",
+                "year": 2024,
+                "image": "/images/space-kitchen.webp"
+              },
+              {
+                "id": "04",
+                "title": "Noor Hotel",
+                "place": "Aspen",
+                "year": 2024,
+                "image": "/images/space-workspace.webp"
+              },
+              {
+                "id": "05",
+                "title": "Sage Office",
+                "place": "San Francisco",
+                "year": 2023,
+                "image": "/images/space-dining.webp"
+              }
+            ]
+          }
+        }
+      },
+      "Services": {
+        "variants": {
+          "InteriorServices1": {
+            "badge": "WHAT WE DO",
+            "titleStart": "Four Ways",
+            "titleHighlight": "We Work.",
+            "description": "Turnkey or design-only. Pick the one that fits, or mix them.",
+            "items": [
+              {
+                "id": "01",
+                "title": "Homes",
+                "text": "Full-home design, joinery and styling, from one team.",
+                "image": "/images/service-homes.webp",
+                "tags": [
+                  "Concept design",
+                  "3D visuals",
+                  "Turnkey build"
+                ]
+              },
+              {
+                "id": "02",
+                "title": "Offices",
+                "text": "Calm workplaces that people like.",
+                "image": "/images/service-offices.webp",
+                "tags": [
+                  "Space planning",
+                  "Acoustics",
+                  "Branding"
+                ]
+              },
+              {
+                "id": "03",
+                "title": "Hospitality",
+                "text": "Cafés, restaurants, boutique stays.",
+                "image": "/images/service-hospitality.webp",
+                "tags": [
+                  "Concept & mood",
+                  "Lighting",
+                  "FF&E"
+                ]
+              },
+              {
+                "id": "04",
+                "title": "Furniture",
+                "text": "Custom pieces from our workshop.",
+                "image": "/images/service-furniture.webp",
+                "tags": [
+                  "Custom joinery",
+                  "Own workshop",
+                  "Styling"
+                ]
+              }
+            ]
+          }
+        }
+      },
+      "Gallery": {
+        "variants": {
+          "InteriorGallery1": {
+            "badge": "PORTFOLIO",
+            "titleStart": "Visual",
+            "titleHighlight": "Gallery",
+            "items": [
+              {
+                "src": "/images/project-villa.webp",
+                "cat": "Bedroom"
+              },
+              {
+                "src": "/images/project-apartment.webp",
+                "cat": "Living"
+              },
+              {
+                "src": "/images/project-penthouse.webp",
+                "cat": "Kitchen"
+              },
+              {
+                "src": "/images/project-loft.webp",
+                "cat": "Bedroom"
+              },
+              {
+                "src": "/images/service-offices.webp",
+                "cat": "Office"
+              },
+              {
+                "src": "/images/gallery-living-1.webp",
+                "cat": "Living"
+              },
+              {
+                "src": "/images/service-furniture.webp",
+                "cat": "Kitchen"
+              },
+              {
+                "src": "/images/gallery-living-2.webp",
+                "cat": "Bedroom"
+              },
+              {
+                "src": "/images/gallery-dining.webp",
+                "cat": "Living"
+              },
+              {
+                "src": "/images/gallery-bedroom.webp",
+                "cat": "Living"
+              },
+              {
+                "src": "/images/service-homes.webp",
+                "cat": "Living"
+              },
+              {
+                "src": "/images/space-workspace.webp",
+                "cat": "Living"
+              }
+            ]
+          }
+        }
+      },
+      "Process": {
+        "variants": {
+          "InteriorProcess1": {
+            "badge": "OUR PROCESS",
+            "titleStart": "A Methodical",
+            "titleHighlight": "Approach",
+            "items": [
+              {
+                "n": "01",
+                "title": "Listen",
+                "image": "/images/space-bedroom.webp"
+              },
+              {
+                "n": "02",
+                "title": "Sketch",
+                "image": "/images/space-kitchen.webp"
+              },
+              {
+                "n": "03",
+                "title": "Build",
+                "image": "/images/space-workspace.webp"
+              },
+              {
+                "n": "04",
+                "title": "Handover",
+                "image": "/images/space-dining.webp"
+              }
+            ]
+          }
+        }
+      },
+      "Testimonials": {
+        "variants": {
+          "InteriorTestimonials1": {
+            "badge": "TESTIMONIALS",
+            "titleStart": "What Our",
+            "titleHighlight": "Clients Say",
+            "items": [
+              {
+                "text": "Our home finally has an aura of its own.",
+                "by": "Aarav & Meera, Gurugram",
+                "image": "/images/testimonial-living.webp"
+              },
+              {
+                "text": "They listened more than they talked, and it shows.",
+                "by": "Kavya R., Mumbai",
+                "image": "/images/space-bedroom.webp"
+              },
+              {
+                "text": "Our café became the city's favourite corner.",
+                "by": "Rohan S., Jaipur",
+                "image": "/images/space-kitchen.webp"
+              }
+            ]
+          }
+        }
+      },
+      "Contact": {
+        "variants": {
+          "InteriorContact1": {
+            "badge": "START A PROJECT",
+            "titleStart": "Let's",
+            "titleHighlight": "Talk.",
+            "formTitle": "Tell us about your space",
+            "image": "/images/contact-bg.webp",
+            "address": "450 Lexington Ave, New York, NY 10017, USA",
+            "city": "New York, USA",
+            "phone": "+1 00000 00000",
+            "email": "info@xyz.com",
+            "hours": "Mon - Sat: 9:00 AM - 6:00 PM"
+          }
+        }
+      },
+      "SiteChromeContent": {
+        "variants": {
+          "InteriorSiteChrome1": {
+            "brand": {
+              "name": "Aura",
+              "tag": "Interior Studio",
+              "email": "info@xyz.com",
+              "phone": "+1 00000 00000",
+              "city": "New York, USA",
+              "address": "450 Lexington Ave, New York, NY 10017, USA",
+              "hours": "Mon - Sat: 9:00 AM - 6:00 PM",
+              "insta": "@aura.interiorstudio",
+              "social": {
+                "instagram": "https://instagram.com/",
+                "facebook": "https://facebook.com/",
+                "linkedin": "https://linkedin.com/",
+                "youtube": "https://youtube.com/"
+              }
+            },
+            "header": {
+              "tagline": "Interior Studio",
+              "email": "info@xyz.com",
+              "phone": "+1 00000 00000",
+              "navigation": {
+                "items": [
+                  {
+                    "key": "about",
+                    "label": "About",
+                    "href": "#about"
+                  },
+                  {
+                    "key": "work",
+                    "label": "Work",
+                    "href": "#work"
+                  },
+                  {
+                    "key": "services",
+                    "label": "Services",
+                    "href": "#services"
+                  },
+                  {
+                    "key": "gallery",
+                    "label": "Gallery",
+                    "href": "#gallery"
+                  },
+                  {
+                    "key": "process",
+                    "label": "Process",
+                    "href": "#process"
+                  },
+                  {
+                    "key": "contact",
+                    "label": "Contact",
+                    "href": "#contact"
+                  }
+                ],
+                "consultationButton": {
+                  "label": "Enquire",
+                  "href": "#contact"
+                }
+              }
+            },
+            "footer": {
+              "descriptionLines": [
+                "Every space has an aura.",
+                "Homes, offices and boutique spaces designed",
+                "in light, stone and slow craft."
+              ],
+              "quickLinks": [
+                {
+                  "name": "About",
+                  "href": "#about"
+                },
+                {
+                  "name": "Work",
+                  "href": "#work"
+                },
+                {
+                  "name": "Services",
+                  "href": "#services"
+                },
+                {
+                  "name": "Gallery",
+                  "href": "#gallery"
+                },
+                {
+                  "name": "Process",
+                  "href": "#process"
+                },
+                {
+                  "name": "Contact",
+                  "href": "#contact"
+                }
+              ],
+              "copyright": "© 2026 Aura Interior Studio. All rights reserved · Powered by Lestow"
+            }
+          }
+        }
+      }
+    }
+  }
+}
