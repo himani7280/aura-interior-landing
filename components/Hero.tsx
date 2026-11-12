@@ -34,7 +34,7 @@ export default function Hero({ image: propImage, images: propImages, name: propN
   }, [slides.length]);
 
   return (
-    <section id="top" ref={ref} className="relative h-[68svh] sm:h-[78svh] md:h-[100svh] overflow-hidden bg-black text-paper">
+    <section id="top" ref={ref} className="relative h-[52svh] sm:h-[65svh] md:h-[100svh] overflow-hidden bg-black text-paper">
       <motion.div style={{ y }} className="absolute inset-0 bg-black">
         {slides.map((src, idx) => (
           <motion.div

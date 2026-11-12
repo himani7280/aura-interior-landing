@@ -17,7 +17,7 @@ export default function Services({ items: propItems, services }: ServicesProps) 
   const enquireLink = services?.enquireLink || "#contact";
 
   return (
-    <section id="services" className="relative z-10 overflow-x-clip px-4 sm:px-6 lg:px-8 -mt-5 sm:-mt-5 md:-mt-1 lg:-mt-2 pt-0 pb-6 sm:pb-8">
+    <section id="services" className="relative z-10 overflow-x-clip px-4 sm:px-6 lg:px-8 pt-4 sm:pt-6 md:pt-0 md:-mt-1 lg:-mt-2 pb-6 sm:pb-8">
       <div className="mx-auto max-w-[1440px]">
         <div className="mb-4 sm:mb-6">
           <div>
@@ -35,7 +35,7 @@ export default function Services({ items: propItems, services }: ServicesProps) 
                 <div className="flex flex-col justify-between gap-5 p-5 sm:p-7 md:p-8 lg:p-10 xl:p-12">
                   <div className="flex items-center justify-between text-sm tracking-[.3em]">
                     <span>0{i + 1} / 0{items.length}</span>
-                    <span className="text-2xl">↗</span>
+                    <a href="#contact" aria-label={`Enquire about ${s.title}`} className="text-2xl transition-transform hover:translate-x-0.5 hover:-translate-y-0.5">↗</a>
                   </div>
                   <div className="my-auto py-2">
                     <h3 className="font-display text-3xl sm:text-4xl md:text-[clamp(32px,3.8vw,72px)] italic leading-tight">{s.title}</h3>
